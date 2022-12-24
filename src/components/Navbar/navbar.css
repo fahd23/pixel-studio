@@ -9,8 +9,8 @@ li {
   padding-bottom: 3px;
 }
 .app-logo {
-  padding-left: 12.5rem;
-  padding-top: 11px;
+  padding-left: 11.5rem;
+  padding-top: 8px;
   cursor: pointer;
 }
 .call-to-action-div {
@@ -23,11 +23,10 @@ li {
   display: flex;
   align-self: flex-end;
   gap: 2.5rem;
-  padding: 1rem 10rem 1rem 3rem;
+  padding: 0.8rem 10rem 0.8rem 3rem;
   color: #ffffff;
 }
 .call-to-action-2 {
-  font-family: "DM Sans";
   font-weight: 500;
   display: flex;
   align-items: flex-start;

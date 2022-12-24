@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import applogo from "../../Assets/applogo.svg";
+import applogo from "../../Assets/7hills_Logo.png";
 import callEmoji from "../../Assets/callEmoji.svg";
 import mailEmoji from "../../Assets/mail.svg";
 

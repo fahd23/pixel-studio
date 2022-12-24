@@ -1,0 +1,44 @@
+.carousel-container {
+  margin-top: 2.2rem;
+  padding-bottom: 7.5rem;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  overflow: hidden;
+}
+.carousel-div {
+  position: relative;
+}
+.carousel-image {
+  width: 650px;
+  height: 596px;
+}
+.carousel-card {
+  position: absolute;
+  z-index: 1;
+  left: 2rem;
+  bottom: -5rem;
+  width: 508px;
+  height: 197px;
+  padding: 1.3rem;
+  background: #ffffff;
+  box-shadow: 7px 7px 25px rgba(14, 14, 14, 0.08);
+  line-height: 37px;
+}
+.card-title {
+  font-family: "Segoe Print";
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.card-sub-title {
+  font-size: 1rem;
+}
+.carousel-cta-btn {
+  margin-top: 1.5rem;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  background: #ef7f1a;
+  padding: 15px 20px;
+  cursor: pointer;
+}
