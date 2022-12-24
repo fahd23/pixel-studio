@@ -1,0 +1,47 @@
+li {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.08);
+  padding-bottom: 3px;
+}
+.app-logo {
+  padding-left: 12.5rem;
+  padding-top: 11px;
+  cursor: pointer;
+}
+.call-to-action-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.call-to-action-1 {
+  background: #ef7f1a;
+  display: flex;
+  align-self: flex-end;
+  gap: 2.5rem;
+  padding: 1rem 10rem 1rem 3rem;
+  color: #ffffff;
+}
+.call-to-action-2 {
+  font-family: "DM Sans";
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  gap: 2.2rem;
+  padding-right: 11rem;
+}
+.call-to-action-2 > li {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.down-arrow {
+  font-size: 1.3rem;
+  rotate: 90deg;
+}
