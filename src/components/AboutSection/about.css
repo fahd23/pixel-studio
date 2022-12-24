@@ -1,0 +1,29 @@
+.about-container {
+  position: relative;
+  width: 78%;
+  margin: 1rem auto 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.about-div {
+  line-height: 27px;
+}
+.about-title {
+  font-size: 2.1rem;
+  padding-bottom: 2rem;
+}
+.hill-image {
+  position: absolute;
+  z-index: 2;
+  left: -12rem;
+  bottom: -10rem;
+}
+.wood-image {
+  width: 250px;
+  position: absolute;
+  z-index: 2;
+  right: -10.4rem;
+  bottom: -7rem;
+}
