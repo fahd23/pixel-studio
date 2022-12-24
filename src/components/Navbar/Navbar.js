@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="call-to-action-2">
-          <li>Home</li>
+          <li className="cta-color">Home</li>
           <li>
             Products <span className="down-arrow">{">"}</span>
           </li>

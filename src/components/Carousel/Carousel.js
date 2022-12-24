@@ -21,7 +21,7 @@ const Carousel = () => {
         <div className="carousel-card">
           <p className="card-title"> Elegant Dining Room Furniture</p>
           <p className="card-sub-title">that inspires your senses.</p>
-          <button className="carousel-cta-btn">Explore the Collection</button>
+          <button className="cta-btn">Explore the Collection</button>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const Carousel = () => {
         <div className="carousel-card">
           <p className="card-title">Aesthetic Living Room Furniture</p>
           <p className="card-sub-title">that uplifts your mood.</p>
-          <button className="carousel-cta-btn">Explore the Collection</button>
+          <button className="cta-btn">Explore the Collection</button>
         </div>
       </div>
     </div>
