@@ -1,0 +1,115 @@
+.cta-container {
+  margin-top: 6rem;
+  width: 100%;
+  height: 22rem;
+}
+.bg-opacity {
+  position: relative;
+  background-color: #000;
+}
+.bg-opacity::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("../../Assets/hallcta.png") no-repeat center center;
+  background-size: cover;
+}
+.cta-content {
+  color: #ffffff;
+  padding: 5rem 0 5.45rem 13rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+/* vision */
+
+.vision-container::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 39rem;
+  z-index: 0;
+  opacity: 0.5;
+  background: url(../../Assets/visionBg.png) no-repeat center center;
+  background-size: cover;
+}
+.vision-content {
+  position: relative;
+  padding: 5.85rem 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+/* Products */
+.product-cta-container {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+}
+.office-product,
+.home-product {
+  position: relative;
+  background-color: #000;
+  width: 50%;
+  height: 600px;
+}
+.office-product::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("../../Assets/officeFurniture.png") no-repeat center center;
+  background-size: cover;
+}
+.office-product-content {
+  width: 85%;
+  padding-top: 20.5rem;
+  padding-left: 7rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+.home-product::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url(../../Assets/homeFurniture.png) no-repeat center center;
+  background-size: cover;
+}
+.home-product-content {
+  width: 90%;
+  padding-top: 20.5rem;
+  padding-left: 5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1.5rem;
+}

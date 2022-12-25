@@ -31,10 +31,12 @@
 .seek-image {
   position: absolute;
   left: 0;
+  top: 125rem;
 }
 .daco-image {
   position: absolute;
   right: 0;
+  top: 125rem;
 }
 
 .avails-container {
