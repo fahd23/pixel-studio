@@ -19,6 +19,11 @@
 .gap-3 {
   gap: 3rem;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .flex-column-center {
   display: flex;
   flex-direction: column;
@@ -32,6 +37,9 @@
 }
 .f-size-2 {
   font-size: 2rem;
+}
+.width-80 {
+  width: 80%;
 }
 .cta-color {
   color: #ef7f1a;
