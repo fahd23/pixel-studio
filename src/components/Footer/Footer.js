@@ -36,7 +36,7 @@ const Footer = () => {
             <li>Blogs</li>
             <li>Careers</li>
           </div>
-          <div className="footer-content-div m-r-2 p-l-minus-5">
+          <div className="footer-content-div m-r-2 ">
             <h3 className="cta-color m-b-1">Home Furniture</h3>
             <li>Beds</li>
             <li>Sofas & Armchairs</li>

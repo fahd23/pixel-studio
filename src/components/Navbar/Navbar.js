@@ -3,8 +3,9 @@ import "./navbar.css";
 import applogo from "../../Assets/7hills_Logo.png";
 import callEmoji from "../../Assets/callEmoji.svg";
 import mailEmoji from "../../Assets/mail.svg";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ setNavlinkToggle }) => {
   return (
     <header className="navbar">
       <img src={applogo} alt="applogo" className="app-logo" />
@@ -20,8 +21,10 @@ const Navbar = () => {
           </div>
         </div>
         <div className="call-to-action-2">
-          <li className="cta-color">Home</li>
-          <li>
+          <Link to="/" className="cta-color linkStyle">
+            Home
+          </Link>
+          <li onClick={() => setNavlinkToggle((prev) => !prev)}>
             Products <span className="down-arrow">{">"}</span>
           </li>
           <li>About Us</li>

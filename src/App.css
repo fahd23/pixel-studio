@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500;700&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,11 @@
   box-sizing: border-box;
   font-family: "DM Sans";
 }
+
 /* utility classes */
+.display-none {
+  display: none;
+}
 /* flex */
 .flex {
   display: flex;
@@ -33,6 +37,12 @@
 .justify-space-btw {
   justify-content: space-between;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.m-auto {
+  margin: auto;
+}
 .m-t-2 {
   margin-top: 2rem;
 }
@@ -48,20 +58,33 @@
 .m-r-2 {
   margin-right: 2rem;
 }
-.p-l-minus-5 {
-  margin-left: -5rem;
+.m-b-2 {
+  margin-bottom: 2rem;
 }
 .p-l-2 {
   padding-left: 2rem;
 }
+/* fonts */
+.font-weight-300 {
+  font-weight: 300;
+}
 .f-size-14px {
   font-size: 14px;
+}
+.f-size-1 {
+  font-size: 1rem;
 }
 .f-size-2 {
   font-size: 2rem;
 }
 .width-80 {
   width: 80%;
+}
+.width-60 {
+  width: 60%;
+}
+.text-center {
+  text-align: center;
 }
 .opacity-5 {
   opacity: 0.5;
@@ -71,11 +94,15 @@
   color: #ef7f1a;
 }
 .cta-btn {
-  margin-top: 1.5rem;
+  margin-top: 1.3rem;
   color: #ffffff;
   border: none;
   font-size: 1rem;
   background: #ef7f1a;
   padding: 15px 20px;
   cursor: pointer;
+}
+.linkStyle {
+  text-decoration: none;
+  color: #ef7f1a;
 }
