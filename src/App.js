@@ -7,14 +7,12 @@ import { ListingProvider } from "./context/listing-context";
 
 const App = () => {
   return (
-    <>
-      <ListingProvider>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/Products" element={<ProductPage />} />
-        </Routes>
-      </ListingProvider>
-    </>
+    <ListingProvider>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Products" element={<ProductPage />} />
+      </Routes>
+    </ListingProvider>
   );
 };
 

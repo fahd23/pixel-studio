@@ -8,9 +8,11 @@
 }
 
 /* utility classes */
+
 .display-none {
   display: none;
 }
+
 /* flex */
 .flex {
   display: flex;
