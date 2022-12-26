@@ -2,7 +2,7 @@ import React from "react";
 import "./products.css";
 import seek from "../../Assets/Seek.png";
 import daco from "../../Assets/Daco.png";
-import { feature, products } from "./index";
+import { feature, products } from "../../utilities/data";
 
 const Products = () => {
   return (

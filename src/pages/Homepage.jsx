@@ -1,19 +1,21 @@
 import React, { useEffect } from "react";
-import About from "../components/AboutSection/About";
-import Blogs from "../components/Blogs/Blogs";
-import CallToAction from "../components/CallToAction/CallToAction";
-import Carousel from "../components/Carousel/Carousel";
-import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar/Navbar";
-import ProductNavlinks from "../components/ProductNavlinks/ProductNavlinks";
-import Products from "../components/Products/Products";
+import {
+  Navbar,
+  About,
+  Blogs,
+  CallToAction,
+  Carousel,
+  Footer,
+  Products,
+  ProductNavlinks,
+} from "../components";
 
 const Homepage = () => {
   useEffect(() => {
     document.title = "Home | Pixel-Studios";
   }, []);
   return (
-    <div>
+    <>
       <Navbar />
       <Carousel />
       <About />
@@ -22,7 +24,7 @@ const Homepage = () => {
       <Blogs />
       <Footer />
       <ProductNavlinks />
-    </div>
+    </>
   );
 };
 
