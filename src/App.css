@@ -77,6 +77,12 @@
 .f-size-2 {
   font-size: 2rem;
 }
+.width-100 {
+  width: 100%;
+}
+.width-90 {
+  width: 90%;
+}
 .width-80 {
   width: 80%;
 }
@@ -102,6 +108,16 @@
   padding: 15px 20px;
   cursor: pointer;
 }
+.cta-btn-outlined {
+  margin-top: 1.3rem;
+  color: #ef7f1a;
+  border: 1px solid #ef7f1a;
+  font-size: 1rem;
+  background: transparent;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+
 .linkStyle {
   text-decoration: none;
   color: #ef7f1a;
