@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import ProductNavlinks from "../components/ProductNavlinks/ProductNavlinks";
 import ProductListing from "../components/ProductListing/ProductListing";
 
-const ProductPage = ({ navlinkToggle, setNavlinkToggle }) => {
+const ProductPage = () => {
+  useEffect(() => {
+    document.title = "Products | Pixel-Studios";
+  }, []);
   return (
     <>
-      <Navbar setNavlinkToggle={setNavlinkToggle} />
+      <Navbar />
       <ProductListing />
       <Footer />
-      <ProductNavlinks navlinkToggle={navlinkToggle} />
+      <ProductNavlinks />
     </>
   );
 };

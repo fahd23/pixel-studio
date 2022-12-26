@@ -4,8 +4,10 @@ import applogo from "../../Assets/7hills_Logo.png";
 import callEmoji from "../../Assets/callEmoji.svg";
 import mailEmoji from "../../Assets/mail.svg";
 import { Link } from "react-router-dom";
+import { useListing } from "../../context/listing-context";
 
-const Navbar = ({ setNavlinkToggle }) => {
+const Navbar = () => {
+  const { setNavlinkToggle } = useListing();
   return (
     <header className="navbar">
       <img src={applogo} alt="applogo" className="app-logo" />

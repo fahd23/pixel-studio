@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import About from "../components/AboutSection/About";
 import Blogs from "../components/Blogs/Blogs";
 import CallToAction from "../components/CallToAction/CallToAction";
@@ -8,17 +8,20 @@ import Navbar from "../components/Navbar/Navbar";
 import ProductNavlinks from "../components/ProductNavlinks/ProductNavlinks";
 import Products from "../components/Products/Products";
 
-const Homepage = ({ navlinkToggle, setNavlinkToggle }) => {
+const Homepage = () => {
+  useEffect(() => {
+    document.title = "Home | Pixel-Studios";
+  }, []);
   return (
     <div>
-      <Navbar setNavlinkToggle={setNavlinkToggle} />
+      <Navbar />
       <Carousel />
       <About />
       <Products />
       <CallToAction />
       <Blogs />
       <Footer />
-      <ProductNavlinks navlinkToggle={navlinkToggle} />
+      <ProductNavlinks />
     </div>
   );
 };
