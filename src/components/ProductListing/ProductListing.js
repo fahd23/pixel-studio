@@ -1,39 +1,8 @@
 import React from "react";
 import "./productlisting.css";
 import productPageBed from "../../Assets/productPageBed.png";
-import listing1 from "../../Assets/listing1.png";
-import listing2 from "../../Assets/listing2.png";
-import listing3 from "../../Assets/listing3.png";
-import listing4 from "../../Assets/listing4.png";
-import listing5 from "../../Assets/listing5.png";
-import listing6 from "../../Assets/listing6.png";
+import { filterData, listingProducts } from "../../utilities/data";
 
-const listingProducts = [
-  {
-    image: listing1,
-    desc: "Natural Finish Orchid Queen Bed - With Side Storage  ",
-  },
-  { image: listing2, desc: "Rosewood Finish Garden  Bed- With Side Storage  " },
-  {
-    image: listing3,
-    desc: "Dark Walnut Finish Magnolia  Bed- With Hydraulic Storage  ",
-  },
-  {
-    image: listing4,
-    desc: "Natural Finish Hibiscus Queen Bed - With Side Storage  ",
-  },
-  { image: listing5, desc: "Rosewood Finish Lily  Bed- With Side Storage  " },
-  {
-    image: listing6,
-    desc: "Dark Walnut Finish Laven Bed- With Hydraulic Storage  ",
-  },
-];
-
-const filterData = {
-  "Bed Size": ["Single", "Queen", "King", "Super King"],
-  "Storage Type": ["No Storage", "Side Storage", "Hydraulic Storage"],
-  Finishes: ["Natural", "Dark Walnut", "Light Walnut", "Rosewood"],
-};
 const ProductListing = () => {
   return (
     <div className="flex-column-center ">

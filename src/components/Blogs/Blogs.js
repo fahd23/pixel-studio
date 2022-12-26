@@ -1,31 +1,9 @@
 import React from "react";
 import "./blogs.css";
-import blog1 from "../../Assets/blog1.png";
-import blog2 from "../../Assets/blog2.png";
-import blog3 from "../../Assets/blog3.png";
 import reviewbed from "../../Assets/reviewbed.png";
 import customers from "../../Assets/customers.png";
+import { blogsData } from "../../utilities/data";
 
-const blogsData = [
-  {
-    topic: "INTERIOR DESIGN",
-    title: "INTERIOR DESIGN TRENDS THAT WILL BE MASSIVE IN 2022",
-    date: "16 DEC 2022",
-    image: blog1,
-  },
-  {
-    topic: "INTERIOR DESIGN",
-    title: "HOW TO DECORATE YOUR HOME & HALLWAY for the Summer Season",
-    date: "16 DEC 2022",
-    image: blog2,
-  },
-  {
-    topic: "LIVING ROOM",
-    title: "MODERN WALL TV CABINETS & UNITS FOR YOUR LIVING ROOM",
-    date: "16 DEC 2022",
-    image: blog3,
-  },
-];
 const Blogs = () => {
   return (
     <>
